@@ -29,6 +29,61 @@ body {
 	}
 }
 
+@media (max-width: 1200px) {
+	.header-container {
+		margin: 20px 30px !important;
+	}
+	.home-section-2 {
+		margin: 10px 30px !important;
+	}
+	.main-image-container {
+		width:unset !important;
+	}
+	.main-image {
+		min-width: 50% !important;
+	}
+	.main-image {
+		min-width: 50% !important;
+	}
+	.main-footer-content {
+		margin: 0px 60px !important;
+	}
+}
+
+@media (min-width: 1000px) {
+	.menu-container-mobile {
+		display:none;
+	}
+	.menu-container {
+		display:flex;
+	}
+}
+
+@media (max-width: 1000px) {
+	.menu-container {
+		display:none !important;
+	}
+	.main-image-container {
+		flex-direction: column-reverse !important;
+	}
+	.main-image {
+		height: 100% !important;
+	}
+	.main-text {
+		margin: 15px !important;
+	}
+	.main-text-container {
+		justify-content: center !important;
+		padding: 0px !important;
+	}
+	.contact-info-container  {
+		flex-direction: column !important;
+	}
+	.contact-button {
+		width: 100% !important;
+	}
+}
+
 .main-content-middle {
 	position: relative;
 	margin: 0 auto;
@@ -46,7 +101,6 @@ body {
 
 .header-container{
 	margin: 20px auto;
-	
 }
 
 
@@ -55,6 +109,23 @@ body {
 	cursor: pointer;
 	font-size: var(--font-normal);
 }
+
+.menu-list-item-mobile {
+	list-style: none;
+	cursor: pointer;
+	padding: 18px 0px;
+	font-size: var(--font-normal);
+	text-align: center;
+	border-top: 1px solid black;
+}
+.menu-container-mobile {
+	margin: 0px;
+}
+.mobile-menu-button {
+	font-size: 34px;
+	margin: 0px 15px;
+}
+
 .menu-container {
 	display: flex;
 	margin: 0;
@@ -69,7 +140,7 @@ body {
     justify-content: space-between;
 }
 .main-image {
-	background-image: url("images/bil.jpg");
+	background-image: url("/images/bil.jpg");
 	background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,6 +284,30 @@ a:link, a:visited {
 	max-width: 47.5%;
 	min-width: 47.5%;
 }	
+.width100 {
+	width: 100%;
+}
+
+.lb-outerContainer {
+	max-height:90vh;
+	height:unset !important;
+}
+
+.lb-image{ 
+	max-height:90vh!important;
+	width:unset !important;
+	height:unset !important;
+}
+
+.mobile-menu {
+	position: absolute;
+    width: 100%;
+    background-color: var(--third-color);
+	display: none;
+}
+.mobile-menu-show {
+	display: block !important;
+}
 
 p {
 	font-size: var(--font-normal);
