@@ -140,7 +140,7 @@ body {
     justify-content: space-between;
 }
 .main-image {
-	background-image: url("/images/bil.jpg");
+	background-image: url("../images/bil.jpg");
 	background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: cover;
