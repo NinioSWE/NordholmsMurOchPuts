@@ -377,7 +377,9 @@ a:link, a:visited {
 .mobile-menu-show {
 	display: block !important;
 }
-
+.menu-list-item-mobile-last {
+	border-bottom: 1px solid black;
+}
 p {
 	font-size: var(--font-normal);
 }
