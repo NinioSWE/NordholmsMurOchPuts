@@ -7,6 +7,10 @@
 	--font-big: 40px;
 	--font-normal: 20px;
 	--font-small: 14px;
+	
+	--font-big-mobile: 80px;
+	--font-normal-mobile: 40px;
+	--font-small-mobile: 28px;
 }
 
 * {
@@ -48,6 +52,9 @@ body {
 	.main-footer-content {
 		margin: 0px 60px !important;
 	}
+	.main-text-container {
+		text-align: center !important;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -57,6 +64,7 @@ body {
 	.menu-container {
 		display:flex;
 	}
+	
 }
 
 @media (max-width: 1000px) {
@@ -81,6 +89,67 @@ body {
 	}
 	.contact-button {
 		width: 100% !important;
+	}
+	
+	
+	.menu-list-item {
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.menu-list-item-mobile {
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.main-text {
+		font-size: var(--font-big-mobile) !important;
+	}
+	.title {
+		font-size: var(--font-big-mobile) !important;
+	}
+	.main-list div ul li{
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.contact-text {
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.footer-text {
+		font-size: var(--font-small-mobile) !important;
+	}
+	.about-me-content p {
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.about-me-certification p {
+		font-size: var(--font-normal-mobile) !important;
+	}
+
+	.about-me-certification ul li{
+		font-size: var(--font-normal-mobile) !important;
+	}
+	p {
+		font-size: var(--font-normal-mobile) !important;
+	}
+	.logo {
+		height: 80px !important;
+	}
+	.mobile-menu-button {
+		font-size: 58px !important;
+	}
+	.main-image-container {
+		height: 850px !important;
+	}
+	.main-footer {
+		padding-bottom: 50px !important;
+		padding-top: 50px !important;
+	}
+	.contact-button {
+		min-height: 170px !important;
+	}
+	.phone-icon {
+		max-height: 60px !important;
+	}
+	.about-me-container {
+		flex-direction: column;
+	}
+	.about-me-content {
+		max-width: unset !important;
 	}
 }
 
@@ -113,7 +182,7 @@ body {
 .menu-list-item-mobile {
 	list-style: none;
 	cursor: pointer;
-	padding: 18px 0px;
+	padding: 36px 0px;
 	font-size: var(--font-normal);
 	text-align: center;
 	border-top: 1px solid black;
