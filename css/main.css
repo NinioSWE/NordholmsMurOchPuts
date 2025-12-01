@@ -380,6 +380,11 @@ a:link, a:visited {
 .menu-list-item-mobile-last {
 	border-bottom: 1px solid black;
 }
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+}
 p {
 	font-size: var(--font-normal);
 }
