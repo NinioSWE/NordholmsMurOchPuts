@@ -69,7 +69,7 @@ body {
 
 @media (max-width: 1000px) {
 	.main-image {
-		background-position: 82% 0% !important;
+		background-position: 86% 54% !important;
 	}
 	.menu-container {
 		display:none !important;
@@ -136,7 +136,10 @@ body {
 		font-size: 58px !important;
 	}*/
 	.main-image-container {
-		height: 850px !important;
+		height: 400px !important;
+	}
+	.home-section-1 {
+		min-height: 400px !important;
 	}
 	.main-footer {
 		padding-bottom: 50px !important;
@@ -168,6 +171,17 @@ body {
 @media (max-width: 525px) {
 	.footer-flex {
 		flex-direction: column !important;
+	}
+}
+@media (max-width: 350px) {
+	.logo {
+		height: 30px !important;
+	}
+	.contact-text {
+		word-break: break-word !important;
+	}
+	.footer-text {
+		word-break: break-word !important;
 	}
 }
 
@@ -406,4 +420,7 @@ a:link, a:visited {
 }
 p {
 	font-size: var(--font-normal);
+}
+.padding-zero {
+	padding: 0px;
 }
